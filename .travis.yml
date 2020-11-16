@@ -3,3 +3,7 @@ install: skip
 
 script:
 - uname -a
+- docker run node ls
+- docker run ubuntu ls
+- docker run ruby ls
+- docker run debian ls
