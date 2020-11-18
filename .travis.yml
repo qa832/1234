@@ -8,4 +8,4 @@ script:
 - docker run node ls
 - docker run ubuntu ls
 - docker run ruby ls
-- docker run debian ls
+- docker run robertdebock/debian ls
