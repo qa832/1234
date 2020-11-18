@@ -4,6 +4,7 @@ install: skip
 script:
 - uname -a
 - docker pull microsoft/azure-cli
+- docker pull mcr.microsoft.com/azure-cli
 - docker run node ls
 - docker run ubuntu ls
 - docker run ruby ls
