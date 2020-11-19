@@ -6,9 +6,6 @@ script:
 # - docker pull microsoft/azure-cli
 # - docker pull mcr.microsoft.com/azure-cli
 - docker run node ls
-- docker run node ls
-- docker run node ls
-- docker run node ls
 - docker run ubuntu ls
 - docker run alpine ls
 # - docker run robertdebock/debian ls
