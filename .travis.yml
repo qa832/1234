@@ -15,6 +15,7 @@ script:
 - docker run alpine ls
 - docker run debian ls
 - docker run alpine ls
+- docker run mongo ls
 
 jobs:
   include:
