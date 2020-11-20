@@ -9,13 +9,16 @@ script:
 - curl -I https://registry-1.travis-ci.com
 - sudo cat /etc/docker/daemon.json
 - sudo systemctl restart docker
-- docker pull travisci/ci-ubuntu-2004:packer-minimal-1605682785-1fb6ced8
+# - docker pull travisci/ci-ubuntu-2004:packer-minimal-1605682785-1fb6ced8
 - docker run node ls
 - docker run ubuntu ls
 - docker run alpine ls
 - docker run debian ls
 - docker run alpine ls
 - docker run mongo ls
+- docker run redis ls
+- docker run postgres ls
+- docker run nginx ls
 
 jobs:
   include:
