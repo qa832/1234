@@ -13,3 +13,26 @@ script:
 - docker run ubuntu ls
 - docker run alpine ls
 # - docker run robertdebock/debian ls
+
+jobs:
+  include:
+  - rvm: 2.7.2
+    name: Ruby 2.7.2
+  - rvm: 2.7.1
+    name: Ruby 2.7.1
+  - rvm: 2.7.0
+    name: Ruby 2.7.0
+  - rvm: 2.6.0
+    name: Ruby 2.6.0
+  - rvm: 2.6.1
+    name: Ruby 2.6.1
+  - rvm: 2.6.2
+    name: Ruby 2.6.2
+  - rvm: 2.6.3
+    name: Ruby 2.6.3
+  - rvm: 2.6.4
+    name: Ruby 2.6.4
+  - rvm: 2.6.5
+    name: Ruby 2.6.5
+  - rvm: 2.6.6
+    name: Ruby 2.6.6  
