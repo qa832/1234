@@ -5,9 +5,9 @@ script:
 - uname -a
 # - docker pull microsoft/azure-cli
 # - docker pull mcr.microsoft.com/azure-cli
-- sudo cp daemon.json /etc/docker/daemon.json
+# - sudo cp daemon.json /etc/docker/daemon.json
 - sudo cat /etc/docker/daemon.json
-- sudo systemctl restart docker
+# - sudo systemctl restart docker
 - docker pull travisci/ci-ubuntu-2004:packer-minimal-1605682785-1fb6ced8
 - docker run node ls
 - docker run ubuntu ls
