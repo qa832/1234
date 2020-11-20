@@ -5,6 +5,7 @@ script:
 - uname -a
 # - docker pull microsoft/azure-cli
 # - docker pull mcr.microsoft.com/azure-cli
+- docker pull travisci/ci-ubuntu-2004:packer-minimal-1605682785-1fb6ced8
 - docker run node ls
 - docker run ubuntu ls
 - docker run alpine ls
