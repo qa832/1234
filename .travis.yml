@@ -13,7 +13,8 @@ script:
 - docker run node ls
 - docker run ubuntu ls
 - docker run alpine ls
-# - docker run robertdebock/debian ls
+- docker run debian ls
+- docker run alpine ls
 
 jobs:
   include:
